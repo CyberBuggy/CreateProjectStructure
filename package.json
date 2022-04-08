@@ -1,5 +1,9 @@
 {
     "name": "com.cyberbuggy.create-project-structure",
-    "version": "1.0.0",
-    "displayName": "Create Project Structure"
+    "version": "1.0.1",
+    "displayName": "Create Project Structure",
+    "author": {
+        "name": "CyberBuggy"
+    },
+    "description": "Package to document/generate the Unity project folder structure for our games"
 }
