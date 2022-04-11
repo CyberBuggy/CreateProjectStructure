@@ -12,7 +12,7 @@ namespace CyberBuggy.CreateProjectStructure
 
         private static DirectorySet[] _defaultDirectorySets = new[] 
             {new DirectorySet("_Developers", new[] {"KaitoMajima", "Bemesko"}),
-            new DirectorySet(Application.productName, new[] {"Art", "Audio", "Levels", "Timeline", "Scripts"}),
+            new DirectorySet(Application.productName, new[] {"Art", "Audio", "Levels", "Timeline", "Scripts", "UnityPackages"}),
             new DirectorySet(Path.Combine(Application.productName, "Art"), new[] {"Materials", "Fonts", "Sprites", "VFX"}),
             new DirectorySet(Path.Combine(Application.productName, "Art", "VFX"), new[] {"PostProcessingAssets", "Shaders", "ParticleEffects"}),
             new DirectorySet(Path.Combine(Application.productName, "Audio"), new[] {"Music", "SFX"}),
